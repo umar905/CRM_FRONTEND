@@ -1,0 +1,11 @@
+.header2 .container2{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    a{
+        color: black;
+    }
+}

@@ -1,0 +1,100 @@
+.controlAdminPage .container {
+    display: flex;
+    gap: 60px;
+}
+
+.AddTeacherForm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 5px;
+
+    input,
+    select {
+        padding: 10px 15px;
+        border-radius: 10px;
+        background: none;
+        border: 2px solid green;
+        color: green;
+    }
+
+    button {
+        width: 100px;
+        margin: 0 auto;
+        padding: 5px;
+        background: none;
+        color: green;
+        border: 2px solid green;
+    }
+}
+
+.tec {
+    max-width: 300px;
+}
+
+.formSection {
+    margin-top: 80px;
+}
+
+.logins{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+
+.li {
+    /* height: 300px; */
+    max-width: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;  
+    border-radius: 20px;
+    border: 3px solid black;    
+    color: black;
+    height: 500px;
+    &:hover {
+        
+        color: #fff;
+        transition: 0.3s;
+        &::after {
+            bottom: 0;
+            transition: 0.3s;
+            
+        }
+        
+    }
+    img {
+        width: 100%;
+        object-fit: contain;
+        position: relative;
+        top: 50px;
+        height: 100%;
+    }
+    .ruslanaka{
+        width: 130%;
+        height: auto;
+    }
+
+    &::after {
+        content: '';
+        background: rgb(23,70,12);
+        
+        background:  linear-gradient(299deg, rgba(23,70,12,1) 20%, rgba(105,152,37,1) 100%) ;
+        display: block;
+        left: 0;
+        bottom: -100%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+        transition: all .3s;
+    }
+}

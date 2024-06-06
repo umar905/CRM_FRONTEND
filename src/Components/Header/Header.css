@@ -1,0 +1,29 @@
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.login{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    padding: 10px 10px;
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

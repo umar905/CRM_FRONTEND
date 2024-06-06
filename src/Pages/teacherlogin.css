@@ -1,0 +1,60 @@
+
+.teacherliginpage{
+    background: linear-gradient(30deg,  #3e6e37 35%,  #3e6e37 10%, rgb(255, 255, 255) 10%, rgb(255, 255, 255) 100%);
+}
+.teacherliginpage .container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-around;
+    gap: 215px;
+}
+
+.rightsideteach{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+
+    
+    h2{
+        font-size: 40px;
+        background: linear-gradient(87.72deg, #3e6e37 2.12%, #94df63 98.98%); 
+        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    }
+    a{
+        color: black;
+    }
+    p{
+        color: darkgreen;
+        font-size: 20px;
+    }
+    .teacherlogin{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        input{
+            max-width: 400px;
+            padding: 20px;
+            border: 3px solid darkgreen;
+            border-radius: 20px;
+            
+        }
+        button{
+            margin: auto;
+            width: 150px;
+            padding: 20px;
+            background-color: darkgreen;
+            color: white;
+            font-size: 19px;
+            text-transform: uppercase;
+            background: linear-gradient(87.72deg, #3e6e37 2.12%, #94df63 98.98%);
+            border: none;
+            border-radius: 20px;
+        }
+
+    }
+}

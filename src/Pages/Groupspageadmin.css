@@ -1,0 +1,42 @@
+.pageGroupAdmin .container{
+    
+    display: flex;
+    gap: 60px;
+}
+.gradminul{
+    margin-top: 200px;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    .gradminullist{
+        max-width: max-content;
+        width: 100%;
+        height: max-content;
+        padding: 20px;
+        border: 2px solid green;
+        color: black;
+        text-align: center;
+     
+     
+    }
+    .gradminullist:hover {
+        cursor: pointer;
+        color: #fff;
+        transition: 0.3s;
+        background: rgb(23,70,12);
+        &::after {
+            bottom: 0;
+            transition: 0.3s;
+            
+        }
+        
+    }
+
+  
+}
+table{
+   /* max-width:  500px; */
+    height: 100px;
+}

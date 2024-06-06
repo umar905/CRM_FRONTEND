@@ -1,0 +1,54 @@
+
+.admin{
+    width: 400px;
+    margin: 100px auto; 
+    text-align: center;
+    padding: 80px;
+    
+
+}
+.admin_info{
+    h1{
+        text-transform: uppercase;
+    }
+    p{
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+.adminform{
+    max-width: 250px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    input{
+        color: #000;
+        background: none;
+        padding: 10px;
+        border: 2px solid rgba(37, 128, 159, 0.741);
+
+        border-radius: 20px;
+        
+}
+input:focus{
+    
+        border: 3px solid rgba(37, 128, 159, 0.741) !important;
+    
+}
+
+button{
+    width: 100px;
+    padding: 6px 10px;
+    margin: 0 auto;
+    border: 2px solid green;
+    border-radius: 15px;
+    background: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+}

@@ -1,0 +1,94 @@
+.container {
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .soon {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    h3 {
+      color: #000;
+      margin-bottom: 15px;
+      transition: color 0.3s ease;
+    }
+    
+    ul {
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+    }
+   
+    form {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    select,
+    input[type="date"],
+    input[type="time"],
+    button {
+      width: 100%;
+      margin-bottom: 10px;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      border: 2px solid green;
+      color: #000;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+
+    
+    select:focus,
+    input[type="date"]:focus,
+    input[type="time"]:focus,
+    button:focus {
+      outline: none;
+      box-shadow: 0 0 5px #000;
+    }
+    
+    button {
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #0000009c;
+    }
+    
+    button:active {
+      background-color: #00000087;
+    }
+    
+    button::before,
+    button::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 0 10px 17.3px;
+      border-color: transparent transparent transparent #00aa00;
+    }
+    
+    button::before {
+      left: -17.3px;
+    }
+    
+    button::after {
+      right: -17.3px;
+    }
+    
+  }
+  
+  
+  .container .soon2{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }

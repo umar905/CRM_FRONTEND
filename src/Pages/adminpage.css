@@ -1,0 +1,42 @@
+.AdminPage .container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.leftsideAdmin {
+    width: 100%;
+}
+
+.infoCards1 {
+    padding: 60px;
+    display: flex;
+    gap: 2px;
+    justify-content: space-between;
+}
+
+.cardsInfoAdmin {
+    padding: 20px 0;
+    border: 5px solid green;
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.fefef {
+    width: 100%;
+
+}
+.controlBtns{
+    display: flex;
+    .edit{
+        color: green;
+        &:hover{
+            background-color: green;
+            color: #ffff;
+            .edit1{
+                color: #ffff;
+            }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+/* .main {
+    display: flex;
+    
+
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    ul{
+
+        display: flex;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.infoSingle{
+
+} */
+
+
+
+
+
+/* Colors */
+/* Colors */
+
+.pageMain .container2{
+  display: flex;
+  justify-content: center;
+}
+:root {
+    --primary-color: #00cc66; /* Green */
+    --secondary-color: #1e1e1e; /* Black */
+    --text-color: #333; /* Dark gray */
+  }
+  
+  /* Container */
+
+  /* Main Content */
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 800px;
+    width: 90%;
+    background-color: #fff; 
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); 
+    padding: 20px;
+    margin-top: 200px;
+  }
+  
+  /* Teacher Info */
+  .infoSingle {
+    margin-right: 30px;
+  }
+  
+  .infoSingle img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--primary-color); 
+    transition: border-color 0.3s ease; /* Transition for border color */
+  }
+  
+  .infoSingle h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--primary-color); 
+  }
+  
+  .infoSingle h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--text-color); 
+  }
+  
+  /* Hover effect on profile picture */
+  .infoSingle img:hover {
+    border-color: #fff; /* Change border color on hover */
+  }
+  
+  /* Side Info */
+  .leftside {
+    border-left: 2px solid var(--primary-color); 
+    padding-left: 30px;
+  }
+  
+  .leftside ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .leftside li {
+    margin-bottom: 20px;
+  }
+  
+  .leftside li b {
+    font-size: 18px;
+    color: var(--primary-color); 
+  }
+  
+  .leftside li h2 {
+    font-size: 16px;
+    margin-top: 5px;
+    color: var(--text-color); 
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .infoSingle {
+      margin-right: 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .leftside {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
